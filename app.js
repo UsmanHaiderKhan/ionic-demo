@@ -30,7 +30,6 @@ btnAdd.addEventListener('click', () => {
 
     document.body.appendChild(alert);
     return alert.present();
-    return;
   }
   console.log(reasonValue, expenseValue);
   var newElement = document.createElement('ion-item');
